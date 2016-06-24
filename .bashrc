@@ -19,7 +19,6 @@ fi
 
 
 # Generic .bashrc config
-alias reconf="cd GITHUB/Configurate; ./setup.sh; cd;"
 alias tmux="tmux -2"
 alias la="ls -A"
 
