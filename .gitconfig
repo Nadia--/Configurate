@@ -1,0 +1,10 @@
+# Local
+[user]
+	email = figs.in.your.face@gmail.com
+	name = Nadia--
+# Generic
+[alias]
+	ci = commit
+	stat = status
+[push]
+	default = simple
