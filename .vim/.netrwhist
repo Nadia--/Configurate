@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/osipova2/cs225/mp6'
+let g:netrw_dirhist_2='/home/osipova2/cs233/Lab14'
+let g:netrw_dirhist_3='/home/osipova2/cs233/Lab10'
+let g:netrw_dirhist_4='/home/osipova2/cs225'
+let g:netrw_dirhist_5='/home/osipova2/cs233/Lab8'
+let g:netrw_dirhist_6='/home/osipova2/cs225/.svn'
+let g:netrw_dirhist_7='/home/osipova2/.ssh'
+let g:netrw_dirhist_8='/home/osipova2/GITHUB/.git'
+let g:netrw_dirhist_9='/home/osipova2/GITHUB/Configurate/.vim'
