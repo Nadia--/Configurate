@@ -17,8 +17,8 @@ fi
 # This merely appends the directory /local/apps1/cl to the already-existing
 # search path.
 
-
 # Generic .bashrc config
+
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
 HISTCONTROL=ignoreboth
@@ -46,6 +46,8 @@ case "$TERM" in
     xterm-color) color_prompt=yes;;
 esac
 
+export TERM='xterm-256color'
+
 # If this is an xterm set the title to user@host:dir
 # case "$TERM" in
 # xterm*|rxvt*)
@@ -69,6 +71,16 @@ if [ -x /usr/bin/dircolors ]; then
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
 
+    alias grep='grep --color=auto'
+    alias fgrep='fgrep --color=auto'
+    alias egrep='egrep --color=auto'
+fi
+
+# some more ls aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+alias tmux='tmux -2'
 
 # Local .bashrc config
 CS225_INSTALLED_SEMESTER=sp15 source /class/cs225/etc/bashrc
